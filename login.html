@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login</title>
+      <link rel="stylesheet" href="Style.css"/>
+   </head>
+   <body>
+      <div class="login-container">
+         <h2>Connexion</h2>
+      <form action="login.cgi" method="post">
+         
+         <div class="input-group">
+            <label FOR="ID">Enter your ID:</label></br>
+            <input type="text" id="ID" name="ID" required>       
+         </div>
+
+         <div class="input-group">
+            <label FOR="Passwords">Passwords:</label></br>
+            <input type="password" id="Passwords" name="Passwords1" required>
+         </div>
+         
+         <button type="submit">login</button>        
+      </form>  
+         <center>or</center> 
+      <form action="creat_account.html" method="post">
+         <button type="submit">Sign in</button>
+      </form>
+   </body>
+</html>        
